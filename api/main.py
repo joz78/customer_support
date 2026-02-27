@@ -18,7 +18,7 @@ def serve_frontend():
 
 # Dynamically find the model path
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.abspath(os.path.join(BASE_DIR, "..", "models", "model (2).pkl"))
+MODEL_PATH = os.path.abspath(os.path.join(BASE_DIR, "..", "models", "model.pkl"))
 
 # Load model
 model = joblib.load(MODEL_PATH)
